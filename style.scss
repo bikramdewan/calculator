@@ -1,0 +1,43 @@
+
+
+.calculator{
+    height: 360px;
+    width: 280px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 10px;
+
+    &__screen{
+        width: 265px;
+        height: 50px;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px 2px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    &__body{
+        width: 300px;
+        background-color: black;
+        border-radius: 20px;
+        padding: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    &__numButt, &__mathButt, &__clearButt{
+        width: 45px;
+        height: 45px;
+        margin: 10px 4px;
+        border: none !important;
+    }
+
+    &__equalButt{
+        height: 30px;
+        width: 220px;
+        margin: 10px 4px;
+        border: none !important;
+    }
+}
+
